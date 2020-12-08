@@ -1,0 +1,224 @@
+.slide {
+    width: 92vw;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 1280vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.one {
+    background: #efdefe;
+    background-image: url("scene-1.png");
+    background-size: cover;
+}
+.two {
+    background: #a3f3d3;
+    background-image: url("scene-2.png");
+    background-size: cover;
+}
+.three {
+    background: #0bbaa0;
+    background-image: url("scene-3.png");
+    background-size: cover;
+}
+.four {
+    background: #00dfdf;
+    background-image: url("scene-4.png");
+    background-size: cover;
+}
+.five {
+  background: #00dfdf;
+  background-image: url("scene-5.png");
+  background-size: cover;
+}
+.six {
+  background: #00dfdf;
+  background-image: url("scene-6.png");
+  background-size: cover;
+}
+.seven {
+  background: #00dfdf;
+  background-image: url("scene-7.png");
+  background-size: cover;
+}
+.eight {
+  background: #00dfdf;
+  background-image: url("scene-8.png");
+  background-size: cover;
+}
+.nine {
+  background: #00dfdf;
+  background-image: url("scene-9.png");
+  background-size: cover;
+}
+.ten {
+  background: #00dfdf;
+  background-image: url("scene-10.png");
+  background-size: cover;
+}
+.eleven {
+  background: #00dfdf;
+  background-image: url("scene-11.png");
+  background-size: cover;
+}
+.twelve {
+  background: #00dfdf;
+  background-image: url("scene-12.png");
+  background-size: cover;
+}
+.thirteen {
+  background: #00dfdf;
+  background-image: url("scene-13.png");
+  background-size: cover;
+}
+.fourteen {
+  background: #00dfdf;
+  background-image: url("scene-14.png");
+  background-size: cover;
+}
+#character{
+    background-image: url("annie_stand.png");
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 40%;
+    top: 58%;
+    visibility: visible;
+}
+.animate_jump{
+    animation: jump 500ms, walk 500ms;
+}
+.animate_walk{
+    animation: walk 500ms;
+}
+.animate_walk_bw{
+  animation: walk_backwards 500ms;
+}
+@keyframes jump{
+    0%{top: 50%; background-image: url('mini_me.gif');}
+    30%{top: 50px;}
+    70%{top: 50px;}
+    100%{top: 75px; background-image: url('mini_me.gif');}
+}
+@keyframes walk{
+    0%{background-image: url('mini_me.gif');}
+    100%{background-image: url('mini_me.gif');}
+}
+@keyframes walk_backwards{
+  0%{background-image: url('mini_me_bw.gif'); }
+  100%{background-image: url('mini_me_bw.gif');}
+}
+#surfer{
+  background-image: url("surfer.png");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 40%;
+  top: 53%;
+  visibility: hidden;
+}
+.animate_surf{
+  animation: surf 500ms;
+}
+.animate_surf_bw{
+animation: surf_backwards 500ms;
+}
+@keyframes surf{
+  0%{background-image: url('surfer-walk.gif');}
+  100%{background-image: url('surfer-walk.gif');}
+}
+@keyframes surf_backwards{
+0%{background-image: url('surfer-walk-bw.gif');}
+100%{background-image: url('surfer-walk-bw.gif');}
+}
+#space-annie{
+  background-image: url("spacy.gif");
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  visibility: hidden;
+}
+#skater{
+  background-image: url("skater.png");
+  background-size: cover;
+  width: 220px;
+  height: 280px;
+  position: absolute;
+  left: 45%;
+  top: 57%;
+  visibility: hidden;
+}
+#sail-annie{
+  background-image: url("sail-annie.png");
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  visibility: hidden;
+}
+#boat{
+  background-image: url("boat.png");
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 73%;
+  top: 15%;
+  visibility: hidden;
+}
+#winter-annie{
+  background-image: url("winter-annie.png");
+  background-size: cover;
+  width: 240px;
+  height: 280px;
+  position: absolute;
+  top: 50%;
+  left: 96%;
+  visibility: hidden;
+}
+button{
+  background-color: transparent;
+  color: transparent;
+  height: 50px;
+  width: 300px;
+  border-radius: 50px;
+  border-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 96%;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+button:hover{
+  color: transparent;
+}
