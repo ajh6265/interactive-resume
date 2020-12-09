@@ -1,1 +1,1 @@
-# interactive-resume
+# Andrea Hinkle's Interactive Resume
