@@ -147,8 +147,8 @@ animation: surf_backwards 500ms;
   100%{background-image: url('surfer-walk.gif');}
 }
 @keyframes surf_backwards{
-0%{background-image: url('surfer-walk-bw.gif');}
-100%{background-image: url('surfer-walk-bw.gif');}
+  0%{background-image: url('surfer-walk-bw.gif');}
+  100%{background-image: url('surfer-walk-bw.gif');}
 }
 #space-annie{
   background-image: url("spacy.gif");
@@ -186,7 +186,7 @@ animation: surf_backwards 500ms;
   width: 600px;
   height: 600px;
   position: absolute;
-  left: 73%;
+  left: 71.5%;
   top: 15%;
   visibility: hidden;
 }
@@ -221,4 +221,197 @@ button{
 }
 button:hover{
   color: transparent;
+}
+#content-27{
+  background-image: url("content-27.png");
+  background-size: cover;
+  width: 220px;
+  height: 150px;
+  position: absolute;
+  left: 55.55%;
+  top: 29.5%;
+  visibility: hidden;
+}
+.animate_appear27{
+  animation: appear-27 500ms;
+}
+@keyframes appear-27{
+  0%{top: 0;}
+  100%{top: 26.5%;}
+}
+#content-28{
+  background-image: url("content-28.png");
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  left: 59.15%;
+  top: 26%;
+  visibility: hidden;
+}
+.animate_appear28{
+  animation: appear-28 500ms;
+}
+@keyframes appear-28{
+  0%{top: 0;}
+  100%{top: 23%;}
+}
+#content-29{
+  background-image: url("content-29.png");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 62.8%;
+  top: 26%;
+  visibility: hidden;
+}
+.animate_appear29{
+  animation: appear-29 500ms;
+}
+@keyframes appear-29{
+  0%{top: 0;}
+  100%{top: 23%;}
+}
+#content-30{
+  background-image: url("content-30.png");
+  background-size: cover;
+  width: 350px;
+  height: 225px;
+  position: absolute;
+  left: 41.6%;
+  top: 30%;
+  visibility: hidden;
+}
+.animate_appear30{
+  animation: appear-30 500ms;
+}
+@keyframes appear-30{
+  0%{top: 0;}
+  100%{top: 30%;}
+}
+#content-31{
+  background-image: url("content-31.png");
+  background-size: cover;
+  width: 320px;
+  height: 130px;
+  position: absolute;
+  left: 48.5%;
+  top: 40%;
+  visibility: hidden;
+}
+.animate_appear31{
+  animation: appear-31 500ms;
+}
+@keyframes appear-31{
+  0%{top: 0;}
+  100%{top: 40%;}
+}
+#content-32{
+  background-image: url("content-32.png");
+  background-size: cover;
+  width: 325px;
+  height: 225px;
+  position: absolute;
+  left: 34.7%;
+  top: 30%;
+  visibility: hidden;
+}
+.animate_appear32{
+  animation: appear-32 500ms;
+}
+@keyframes appear-32{
+  0%{top: 0;}
+  100%{top: 30%;}
+}
+#content-36{
+  background-image: url("content-36.png");
+  background-size: cover;
+  width: 270px;
+  height: 225px;
+  position: absolute;
+  left: 81%;
+  top: 45%;
+  visibility: visible;
+}
+#content-37{
+  background-image: url("content-37.png");
+  background-size: cover;
+  width: 270px;
+  height: 225px;
+  position: absolute;
+  left: 87.5%;
+  top: 42%;
+  visibility: visible;
+}
+#content-38{
+  background-image: url("content-38.png");
+  background-size: cover;
+  width: 270px;
+  height: 120px;
+  position: absolute;
+  left: 75%;
+  top: 40%;
+  visibility: visible;
+}
+#content-33{
+  background-image: url("content-33.png");
+  background-size: cover;
+  width: 270px;
+  height: 170px;
+  position: absolute;
+  left: 77.9%;
+  top: 30%;
+  visibility: hidden;
+}
+.animate_appear33{
+  animation: appear-33 500ms;
+}
+@keyframes appear-33{
+  0%{top: 0;}
+  100%{top: 30%;}
+}
+#content-34{
+  background-image: url("content-34.png");
+  background-size: cover;
+  width: 270px;
+  height: 130px;
+  position: absolute;
+  left: 84.3%;
+  top: 30%;
+  visibility: hidden;
+}
+.animate_appear34{
+  animation: appear-34 500ms;
+}
+@keyframes appear-34{
+  0%{top: 0;}
+  100%{top: 30%;}
+}
+#content-35{
+  background-image: url("content-35.png");
+  background-size: cover;
+  width: 270px;
+  height: 150px;
+  position: absolute;
+  left: 90.5%;
+  top: 30%;
+  visibility: hidden;
+}
+.animate_appear35{
+  animation: appear-35 500ms;
+}
+@keyframes appear-35{
+  0%{top: 0;}
+  100%{top: 30%;}
+}
+#directions{
+  background-image: url("directions.png");
+  background-size: cover;
+  width: 270px;
+  height: 85px;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  visibility: visible;
 }
